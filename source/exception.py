@@ -1,8 +1,7 @@
 ## This code is common for all projects
 
 import sys
-  
-
+ 
 def error_massage_detail(error, error_detail:sys):
     _,_,exc_tb = error_detail.exc_info()  ## On which line error has occured. 
     file_name = exc_tb.tb_frame.f_code.co_filename
