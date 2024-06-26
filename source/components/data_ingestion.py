@@ -7,8 +7,12 @@ from source.logger import logging
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
+
+## For testing our model
 from source.components.data_transformation import DataTransformation
 from source.components.data_transformation import DataTransformationConfig
+from source.components.model_trainer import ModelTrainerConfig
+from source.components.model_trainer import ModelTrainer
 
 @dataclass       ## Using this we can directly define class variables. i.e. without using __init__
 class DataIngestionConfig:
@@ -50,12 +54,14 @@ class dataIngestion:
         except Exception as e:
             raise CustomException(e, sys) 
             
-            
+ ## This is just for model testing           
 if __name__=='__main__':
     obj = dataIngestion()
     train_data, test_data = obj.initiate_data_ingestion() 
     
     
     data_transformation = DataTransformation()
-    data_transformation.initiate_data_transformation(train_data, test_data)
-         
+    train_arr, test_arr,_ = data_transformation.initiate_data_transformation(train_data, test_data)
+    
+    modeltrainer = ModelTrainer()
+    print(modeltrainer.initiate_model_trainer(train_arr, test_arr))  
