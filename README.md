@@ -21,7 +21,7 @@ This project understands how the students performance (test score) is affected b
 7) Choosing Best model
 
 ### Images - 
-![Dataset](images/data_head)
+![Dataset](images/data_head.png)
 
 #### Dataset Information
 
