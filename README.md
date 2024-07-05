@@ -21,7 +21,7 @@ This project understands how the students performance (test score) is affected b
 7) Choosing Best model
 
 ### Images - 
-![Dataset](images/data_head)
+![Dataset](images/data_head.png)
 
 #### Dataset Information
 
@@ -34,40 +34,40 @@ This project understands how the students performance (test score) is affected b
 7) reading score
 8) writing score
 
-![Data_Info](images/data_info)
+![Data_Info](images/data_info.png)
 
 ### Distribution of the average score
-![Distribution_of_avg_score](images/avg_score_dist)
+![Distribution_of_avg_score](images/avg_score_dist.png)
 From the above graph we can see that female students have performed well than male students.
 
 ### Distribution of average score w.r.t lunch type
-![Dist_with_lunch](images/lunch)
+![Dist_with_lunch](images/lunch.png)
 Insights - Standard lunch helps perform well in exams. 
 
 ### Distribution of average score w.r.t parental level of education
-![Dist_with_parental_education](images/par_ed)
+![Dist_with_parental_education](images/par_ed.png)
 Insights - In general parent's education dont help students perform well in exam.
 
 ### Maximum scores of students  in all subjects.
-![max_score](images/max_scores)
+![max_score](images/max_scores.png)
 
 ### Multivariate analysis
-![multivariate_analysis](images/multi)
+![multivariate_analysis](images/multi.png)
 
 ### Feature wise analysis - 
 #### Distribution of gender
-![gender_dist](images/gender)
+![gender_dist](images/gender.png)
 
 #### Distribution of race/ethnicity
-![dist_race](images/ethnicity)
+![dist_race](images/ethnicity.png)
 
 #### Distribution of lunch
-![dist_lunch](images/dist_lunch)
+![dist_lunch](images/dist_lunch.png)
 
-![test_prep](images/test_prep)
+![test_prep](images/test_prep.png)
 
 ## Outliers
-![outliers](images/outliers)
+![outliers](images/outliers.png)
 
 
 
@@ -82,4 +82,4 @@ Insights - In general parent's education dont help students perform well in exam
 Model is built with approximate accuracy of 88%.
 
 ## Web app 
-![Web_app](images/web_app)
+![Web_app](images/web_app.png)
