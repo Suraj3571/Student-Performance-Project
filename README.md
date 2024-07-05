@@ -82,4 +82,4 @@ Insights - In general parent's education dont help students perform well in exam
 Model is built with approximate accuracy of 88%.
 
 ## Web app 
-![Web_app](images/web_app.png)
+![Web_app](images/web_app)
